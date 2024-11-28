@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seni Musik</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header>
+    <h1>Seni Musik: Bernyanyi & Bermain Musik Populer</h1>
+</header>
+
+<header class="header">
+  <!-- Konten header -->
+</header>
+
+<nav>
+    <a onclick="tampilkan('beranda')">Beranda</a>
+    <a onclick="tampilkan('materi')">Materi</a>
+    <a onclick="tampilkan('tentang')">Tentang</a>
+    <a onclick="tampilkan('kontak')">Kontak</a>
+</nav>
+
+<div class="content" id="beranda">
+    <h2>Beranda</h2>
+    <p>Website ini memuat materi tentang seni musik, meliputi pembahasan mengenai jenis-jenis musik, gaya bernyanyi lagu populer, serta latihan bernyanyi lagu populer dengan penerapan gaya yang tepat. Informasi ini diharapkan dapat memberikan pemahaman lebih mendalam tentang peran musik dalam kehidupan dan kebudayaan.</p>
+    <img src="IMG_1271.PNG" style="width: 200px;" alt="IMG_1271">
+    <img src="LalaKarmelaStage.png" style="width: 200px;" alt="LalaKarmelaStage">
+</div>
+ 
+<div class="content hidden" id="materi">
+    <h2>Materi</h2>
+    <div class="ebook-container">
+      <div class="ebook-card">
+        <h3>Definisi Musik Populer</h3>
+        <p>Pemahaman Musik Populer.</p>
+        <button onclick="bukaBab('bab1')">Buka</button>
+      </div>
+  
+      <div class="ebook-card">
+        <h3>Jenis - Jenis Musik Populer</h3>
+        <p>Terdapat 4 jenis musik Populer.</p>
+        <button onclick="bukaBab('bab2')">Buka</button>
+      </div>
+  
+      <div class="ebook-card">
+        <h3>Gaya Bernyanyi Lagu Populer</h3>
+        <p>Pada jenis musik populer terdapat gaya yang tepat untuk bernyanyi lagu populer.</p>
+        <button onclick="bukaBab('bab3')">Buka</button>
+      </div>
+  
+      <div class="ebook-card">
+        <h3>Latihan Bernyanyi Lagu Populer dengan Gaya yang Tepat</h3>
+        <p>Metode latihan menyanyi lagu populer dengan gaya yang sesuai.</p>
+        <button onclick="bukaBab('bab4')">Buka</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content hidden" id="bab1">
+    <h2>Definisi Musik Populer</h2>
+    <p>Musik populer adalah musik yang ada dan tak terelakkan dalam aktivitas keseharian kita (Storey, 2007). Musik ini dapat ditemukan di mall, rumah sakit, apotek, atau hadir melalui siaran radio, televisi, tayangan YouTube, dan platform lainnya. Musik populer mencakup berbagai macam genre, seperti pop, rock, jazz, dan dangdut, yang terus berkembang mengikuti tren dan selera masyarakat. Selain berfungsi sebagai hiburan, musik populer juga menjadi media ekspresi, identitas, dan komunikasi budaya. Lagu-lagu populer biasanya memiliki irama yang menarik dan lirik yang mudah diingat, membuatnya cepat diterima oleh berbagai kalangan. Tak hanya itu, musik populer sering digunakan dalam iklan, film, dan kampanye sosial untuk menyampaikan pesan tertentu secara efektif. Kehadirannya juga berperan penting dalam industri musik global, menghasilkan fenomena artis dan grup musik yang dikenal di seluruh dunia serta menciptakan komunitas penggemar yang aktif.</p>
+    <button onclick="tampilkan('materi')">Kembali ke Materi</button>
+  </div>
+  
+  <div class="content hidden" id="bab2">
+    <h2>Jenis-Jenis Musik Populer</h2>
+    <style>
+      /* Mengatur jarak antar paragraf dan daftar */
+      p {
+          margin-bottom: 20px; /* Jarak antar paragraf */
+      }
+
+      ol {
+          margin-bottom: 20px; /* Jarak antar daftar */
+      }
+  </style>
+</head>
+<body>
+  <p>Musik populer memiliki banyak jenis atau sering dikenal dengan genre, diantaranya adalah sebagai berikut :</p>
+
+  <ol>
+      <li>
+          <strong>Pop</strong>
+          <p>Jenis lagu pop merupakan jenis lagu yang memiliki banyak pendengar. Jenis lagu ini sangat mudah diterima oleh masyarakat luas pada umumnya. Lagu-lagu pop yang berkembang saat ini bersifat komersial dan berkeinginan untuk memiliki daya tarik massa. Lagu pop di Indonesia banyak disajikan oleh penyanyi solo, grup band dan girl band atau boy band. Musik pop memiliki kemampuan untuk melakukan penyesuaian terhadap perubahan. Ragam musik pop berkembang seperti gaya musik Michael Jackson yang awalnya disebut sebagai disco, kemudian berubah menjadi rhythm and blues (Vincent, 2020). Di Indonesia kita juga dapat membedakan perubahan-perubahan itu misalnya musik pop yang dibawakan oleh Agnes Monica memiliki perbedaan karakter dengan musik pop yang dibawakan oleh Bunga Citra Lestari. Musik pop juga melakukan adaptasi dengan musik dari ragam budaya sehingga muncul salah satunya adalah K-Pop (Korean pop music). Di Indonesia juga muncul musik pop bernuansa daerah seperti pop Minang, pop Sunda, pop Jawa, pop Batak, dan lain-lain.</p>
+      </li>
+
+      <li>
+          <strong>Jazz</strong>
+          <p>Jazz merupakan musik kaum urban Amerika yang awalnya berkembang di New Orleans, awal abad 20. Dua tradisi musik rakyat Amerika keturunan Afrika (Afro American) yakni ragtime dan blues amat mempengaruhi karakteristik musik jazz. Yang mudah ditangkap ketika mendengarkan lagu jazz ini adalah vokal yang sering menirukan suara instrumen, suara penyanyinya biasanya mempunyai karakter vokal yang berat, harmonisasinya terdengar rumit, dan sering terjadi modulasi atau perubahan tangga nada dalam sebuah lagu dan ritme serta melodinya memiliki banyak variasi.</p>
+      </li>
+
+      <li>
+          <strong>Rock</strong>
+          <p>Musik rock adalah jenis musik populer yang berkembang tahun 1950an di Amerika sebagai perkembangan dari musik blues yakni musik rakyat orang Amerika keturunan Afrika yang berkulit hitam (black American), dan musik country yang berasal dari musik rakyat kaum putih di Amerika. Jenis lagu rock ini identik dengan suara yang kencang dengan permainan efek gitar yang menggelegar, bass drum yang dimainkan dengan tempo yang cepat dan kelompok pendengarnya yang ekspresif. Sebagai musik protes karakter musik rock antara lain volume suaranya keras, dan terdapat manipulasi suara gitar elektrik untuk menghasilkan karakter melengking, dan wilayah nada yang luas. Musik ini biasanya menampilkan dua suara gitar elektrik sebagai melodi dan pengiring, synthesizer, bas elektrik dan drum.</p>
+          <p>Pada akhir tahun 60-an dan awal 70-an, rock berkembang menjadi berbagai subgenre seperti soft rock, glam rock, heavy metal, hard rock, progressive rock, punk rock, dan lain-lain. (Kammien, 2017); (Hoffer, 1981).</p>
+      </li>
+
+      <li>
+          <strong>Dangdut</strong>
+          <p>Dangdut merupakan salah satu jenis musik populer yang berasal dari Indonesia. Cikal bakal dangdut adalah musik Melayu yang telah berkembang sejak tahun 1940an. Dangdut merupakan musik yang diwarnai oleh unsur-unsur musik Melayu, India, dan Arab; serta mulai berkembang sejak tahun 1970an. Lagu dangdut yang biasanya diiringi kendang dan seruling terdengar mengalun dan mengajak orang yang mendengarnya ikut bergoyang.</p>
+      </li>
+  </ol>
+
+      <button onclick="tampilkan('materi')">Kembali ke Materi</button>
+  </div>
+
+  <div class="content hidden" id="bab3">
+    <h2>Gaya Bernyanyi Lagu Populer</h2>
+    <style>
+      p {
+          margin-bottom: 20px; /* Atur jarak bawah antar paragraf */
+      }
+  </style>
+</head>
+<body>
+
+  <p>Gaya bernyanyi musik populer pada dasarnya tidak terlalu banyak aturannya, hanya sebatas pada penguasaan teknik vokal dan pembiasaan mengikuti irama lagunya.</p>
+
+  <p>Seseorang yang jarang mendengarkan lagu dangdut, tentu akan kesulitan untuk menyanyikan lagu dangdut dengan cengkok yang baik. Tapi, bagi seseorang yang sejak kecil terbiasa mendengarkan irama dan lagu dangdut, biasanya lebih mudah mengikuti cengkok dengan baik.</p>
+
+  <p>Lagu jazz yang akan mudah diikuti apabila telinga penyanyinya terbiasa mendengarkan irama dan harmoni lagu-lagu jazz.</p>
+
+  <p>Untuk jenis lagu rock sang penyanyi haruslah powerfull dan ekspresif karena kebanyakan lagu rock memiliki irama musik yang bersemangat.</p>
+
+  <p>Lagu pop biasanya dinyanyikan dengan lebih santai dan tidak menonjol, penyanyi pop pun biasanya tampil dengan gaya yang disesuaikan dengan tema lagu dan tidak berlebihan.</p>
+
+  <p>Bernyanyi lagu jenis apa pun haruslah menampilkan mimik muka dan ekspresi yang sesuai dan mewakili makna lirik lagu yang dibawakan.</p>
+    <button onclick="tampilkan('materi')">Kembali ke Materi</button>
+  </div>
+
+  <div class="content hidden" id="bab4">
+    <h2>Latihan Gaya Bernyanyi Lagu Populer dengan Gaya yang Tepat</h2>
+    <style>
+      p, li {
+          margin-bottom: 20px; /* Atur jarak bawah antar paragraf dan item daftar */
+      }
+  </style>
+</head>
+<body>
+
+  <p>Sebelum memulai latihan menyanyikan lagu dengan gaya yang tepat, marilah kita latihan pemanasan vokal terlebih dahulu:</p>
+
+  <ol>
+      <li>Berdiri dengan rileks, kedua kaki dibuka selebar bahu kemudian berat badan bertumpu seimbang di kedua kaki kita.</li>
+      <li>Lakukan pelemasan badan sebisanya, sampai badan terasa lebih rileks lagi.</li>
+      <li>Ambil napas dari hidung kemudian tahan selama 5 detik lalu keluarkan napas dengan suara seperti desi ular 'shss... lakukan berulang selama 3 kali putaran.</li>
+      <li>Lanjutkan dengan vokalisi atau pemanasan vokal.</li>
+      <li>Barulah mulai untuk membedah lagu yang telah dipilih.</li>
+  </ol>
+    <button onclick="tampilkan('materi')">Kembali ke Materi</button>
+  </div>
+
+<div class="content hidden" id="tentang">
+    <h2>Tentang</h2>
+    <p>Nama saya Amaris Wursita, seorang pelajar dan penggemar musik. Sejak kecil, saya selalu tertarik dengan berbagai genre musik dan bagaimana musik dapat mempengaruhi emosi serta budaya kita. Melalui website ini, saya ingin berbagi pengetahuan tentang jenis-jenis musik populer yang ada di dunia dan memberikan wawasan mengenai artis dan lagu-lagu yang telah meninggalkan jejak dalam sejarah musik.</p>
+  
+    <p>Website ini didedikasikan untuk menjelajahi dunia musik populer. Di sini, kamu akan menemukan berbagai informasi tentang genre musik yang paling banyak didengarkan, dari pop hingga rock, jazz, dan banyak lagi. Saya berharap website ini dapat menjadi sumber inspirasi dan pengetahuan bagi siapa saja yang ingin memahami lebih dalam tentang musik dan dampaknya terhadap kehidupan sehari-hari.</p>
+</div>
+
+<div class="content hidden" id="kontak">
+  <h2>Kontak</h2>
+  <p>Untuk informasi lebih lanjut, Jangan ragu untuk menghubungi saya melalui Direct Message di:</p>
+  <a href="https://www.instagram.com/__amary.llis?igshid=bDh5MGxpdG90MGhs" target="_blank">Instagram</a>
+</div>
+
+
+<footer>
+    <p>&copy; 2024 Seni Budaya: Seni Musik "Bernyanyi & Bermain Musik Populer"</p>
+</footer>
+
+<script>
+    function tampilkan(bagian) {
+        const sections = document.querySelectorAll('.content');
+        sections.forEach(section => section.classList.add('hidden'));
+        document.getElementById(bagian).classList.remove('hidden');
+    }
+
+    function bukaBab(bab) {
+        tampilkan(bab);
+    }
+
+    tampilkan('beranda');
+</script>
+
+</body>
+</html>

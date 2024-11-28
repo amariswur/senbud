@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seni Musik: Bernyanyi & Bermain Musik Populer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cover Section -->
+    <div id="cover">
+        <div class="logos">
+            <!-- Logo Sekolah, klik untuk pop-up menuju website sekolah -->
+            <img src="LogoSMKN7Semarang.png" alt="Logo SMKN 7 Semarang" class="logo bounce-in" onclick="bukaWebsite('https://smkn7semarang.sch.id/')">
+            
+            <!-- Logo Jurusan, klik untuk pop-up menuju website jurusan -->
+            <img src="sija logo.png" alt="sija logo" class="logo bounce-in" onclick="bukaWebsite('https://sijastembase.blogspot.com/?m=1jurusan.com')">
+        </div>
+        
+        <h1 class="fade-in">Eksplorasi Seni Musik: Bernyanyi & Bermain Musik Populer</h1>
+        <p>Berbagai jenis musik dan gaya bernyanyi, dari pop hingga jazz, serta bagaimana masing-masing menciptakan keunikan dalam ekspresi musikal</p>
+        
+        <button onclick="bukaHalamanUtama()" class="slide-up">Telusuri Sekarang</button>
+    </div>
+    
+    <!-- Main Content Section -->
+    <div id="main-content">
+        <h2>Main Website Content</h2>
+        <p>This is the main content of the website.</p>
+    </div>
+
+    <script>
+        function bukaHalamanUtama() {
+            // Mengarahkan ke halaman utama
+            window.location.href = "index.html";
+        }
+
+        function bukaWebsite(url) {
+            // Membuka URL dalam pop-up dengan ukuran tertentu
+            window.open(url, '_blank', 'width=600,height=400');
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
